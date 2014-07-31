@@ -387,58 +387,9 @@ th {
 /*--colors--*/
 /*--header and nav--*/
 header {
-  position: fixed;
-  background-color: transparent;
-  color: white;
-  width: 100%;
-  z-index: 100; }
-  header nav {
-    width: 980px;
-    background-color: white;
-    margin: 0 auto;
-    text-align: center;
-    border: 1px solid #fff;
-    border-radius: 0 0 10px 10px; }
-    header nav ul {
-      list-style-type: none;
-      margin: 0px;
-      padding: 10px 0px 10px 0px; }
-      header nav ul li {
-        display: inline-block;
-        vertical-align: middle;
-        margin: 0 10px; }
-        header nav ul li a {
-          display: block;
-          text-decoration: none;
-          color: #000;
-          text-transform: uppercase; }
-
-/*--page backgrounds--*/
-.section {
-  background-size: 100%;
-  background-repeat: no-repeat; }
-
-.inner {
-  width: 980px;
-  margin: 0 auto; }
-
-.home {
-  background-image: url(../img/section-bgs/home-bg.jpg); }
-
-.prod {
-  background-image: url(../img/section-bgs/productos-bg.jpg); }
-
-.origen {
-  background-image: url(../img/section-bgs/origen-bg.jpg); }
-
-.creencias {
-  background-image: url(../img/section-bgs/creencias-bg.jpg); }
-
-.puntos {
-  background-image: url(../img/section-bgs/puntos-bg.jpg); }
-
-.compra {
-  background-image: url(../img/section-bgs/puntos-bg.jpg); }
-
-.contacto {
-  background-image: url(../img/section-bgs/contacto-bg.jpg); }
+  background-color: #cccccc;
+  color: white; }
+  header nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px; }
