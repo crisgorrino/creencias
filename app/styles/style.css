@@ -415,7 +415,8 @@ header {
           color: #000;
           text-transform: uppercase;
           font-family: Helvetica, arial, sans-serif;
-          font-size: 18px; }
+          font-size: 17px;
+          font-weight: 600; }
 
 /*--page backgrounds--*/
 .section {

@@ -1,0 +1,38 @@
+/*--header and nav--*/
+header{
+	position:fixed; 
+	background-color: transparent;	
+	color: $primary-color;
+	width:100%;
+	z-index: 100;
+		nav{
+				width:980px;
+				background-color: $primary-color;
+				margin:0 auto;
+				text-align: center;
+				border:1px solid #fff;
+				border-radius: 0 0 10px 10px;
+			ul{
+				list-style-type: none;
+				margin:0px; 
+				padding:10px 0px 10px 0px;
+					li.active{
+						a{color:#ccc;}
+					}
+				
+					li{
+					display: inline-block; vertical-align: middle;
+					margin:0 7px;
+						a{
+							display: block;
+							text-decoration: none;
+							color:#000;
+							text-transform: uppercase;
+							font-family: $menu-font-stack;
+							font-size: 17px;
+							font-weight: 600;
+						}
+					}	
+				}
+		}	
+}
