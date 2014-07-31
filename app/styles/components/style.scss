@@ -22,17 +22,22 @@ header{
 				list-style-type: none;
 				margin:0px; 
 				padding:10px 0px 10px 0px;
+					li.active{
+						a{color:#ccc;}
+					}
 				
 					li{
 					display: inline-block; vertical-align: middle;
-					margin:0 10px;
+					margin:0 7px;
 						a{
 							display: block;
 							text-decoration: none;
 							color:#000;
 							text-transform: uppercase;
+							font-family: $menu-font-stack;
+							font-size: 18px;
 						}
-					}
+					}	
 				}
 		}	
 }

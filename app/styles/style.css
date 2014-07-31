@@ -403,15 +403,19 @@ header {
       list-style-type: none;
       margin: 0px;
       padding: 10px 0px 10px 0px; }
+      header nav ul li.active a {
+        color: #ccc; }
       header nav ul li {
         display: inline-block;
         vertical-align: middle;
-        margin: 0 10px; }
+        margin: 0 7px; }
         header nav ul li a {
           display: block;
           text-decoration: none;
           color: #000;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          font-family: Helvetica, arial, sans-serif;
+          font-size: 18px; }
 
 /*--page backgrounds--*/
 .section {
