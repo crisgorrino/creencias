@@ -1,11 +1,22 @@
 /*--page backgrounds--*/
 .section{background-size:100%; background-repeat:no-repeat;}
 
-.inner{width:980px; margin:0 auto;}
+.inner{width:980px; margin:0 auto; position: relative;}
 
-.home{background-image: url(../img/section-bgs/home-bg.jpg);} 
+.home{background-image: url(../img/section-bgs/home-bg.jpg);
+	h1{
+		margin:0;
+	}
+} 
 
-.prod {background-image: url(../img/section-bgs/productos-bg.jpg);}
+.prod {background-image: url(../img/section-bgs/productos-bg.jpg);
+	#img-1{
+		display: block; 
+		position:absolute;
+		margin-top:10%;
+		left:0px;
+	}
+}
 
 .origen{background-image: url(../img/section-bgs/origen-bg.jpg);}
 

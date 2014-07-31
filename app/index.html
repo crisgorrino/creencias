@@ -28,9 +28,10 @@
     
     <!--include Javascript-->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/vendors/jquery.stellar.min.js"></script>
     <script type="text/javascript" src="scripts/vendors/jquery.easings.min.js"></script>
-    <script type="text/javascript" src="scripts/js/jquery.fullPage.js"></script>
-    <script type="text/javascript" src="scripts/js/main.js"></script>
+    <script type="text/javascript" src="scripts/vendors/jquery.fullPage.js"></script>
+     <script type="text/javascript" src="scripts/js/main.js"></script>
      <!--include Javascript-->
   
   </head>
@@ -53,14 +54,15 @@
    <div id="fullpage">
    	 	
    	 	<div class="section home">
-   	 		<div class="inner">
-	   	 		<img src="img/home/botellas.png" alt="Botellas Tequila Creencias">
+   	 		<div class="inner ">
+	   	 		<h1>Home</h1>
    	 		</div>
    	 	</div>
    	 	
-   	 	<div class="section prod">
+   	 	<div class="section prod ">
    	 		<div class="inner">
    	 			Productos
+   	 			<img src="img/home/botellas.png" alt="Botellas Tequila Creencias" id="img-1" data-stellar-ratio="2" data-stellar-horizontal-offset="0">
    	 		</div>	
    	 	</div>
    	 	
@@ -72,7 +74,7 @@
    	 	
    	 	<div class="section creencias">
    	 		<div class="inner">
-   	 			Creencias
+   	 			Creencias		
    	 		</div>
    	 	</div>
    	 	
@@ -98,7 +100,8 @@
 				menu: '#menu',
 				anchors: ['home', 'productos', 'origen', 'creencias', 'puntos-de-venta', 'compra', 'contacto'],
 				autoScrolling: false
-			});
+			});	
+			$(window).stellar();								
 		});
 	</script>  
   

@@ -417,6 +417,8 @@ header {
           font-family: Helvetica, arial, sans-serif;
           font-size: 17px;
           font-weight: 600; }
+        header nav ul li a:hover {
+          color: #ccc; }
 
 /*--page backgrounds--*/
 .section {
@@ -425,13 +427,21 @@ header {
 
 .inner {
   width: 980px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  position: relative; }
 
 .home {
   background-image: url(../img/section-bgs/home-bg.jpg); }
+  .home h1 {
+    margin: 0; }
 
 .prod {
   background-image: url(../img/section-bgs/productos-bg.jpg); }
+  .prod #img-1 {
+    display: block;
+    position: absolute;
+    margin-top: 10%;
+    left: 0px; }
 
 .origen {
   background-image: url(../img/section-bgs/origen-bg.jpg); }
