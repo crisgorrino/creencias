@@ -434,7 +434,8 @@ header {
 /*--page backgrounds--*/
 .section {
   background-size: 100%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  overflow: hidden; }
 
 .inner {
   width: 980px;
@@ -484,4 +485,18 @@ header {
   position: absolute;
   margin-top: 35%;
   left: -25%;
+  right: 0%; }
+
+.dandelion-right {
+  display: block;
+  position: absolute;
+  margin-top: 42%;
+  left: 70%;
+  right: 0%; }
+
+.sun-bottom {
+  display: block;
+  position: absolute;
+  margin-top: 55%;
+  left: 75%;
   right: 0%; }
