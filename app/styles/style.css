@@ -446,8 +446,6 @@ header {
   background-image: url(../img/section-bgs/home-bg.jpg);
   background-size: 136%;
   background-position: 50% 0%; }
-  .home h1 {
-    margin: 0; }
 
 .prod {
   background-image: url(../img/section-bgs/productos-bg.jpg); }
@@ -472,31 +470,53 @@ header {
   display: block;
   position: absolute;
   margin-top: 10%;
-  left: 26%; }
+  left: 14%; }
 
 .small-flowers-1 {
   display: block;
   position: absolute;
   margin-top: 15%;
-  left: 30%; }
+  left: 35%; }
 
 .dandelion {
   display: block;
   position: absolute;
   margin-top: 35%;
-  left: -25%;
+  left: -19%;
   right: 0%; }
 
 .dandelion-right {
   display: block;
   position: absolute;
   margin-top: 42%;
-  left: 70%;
+  left: 90%;
   right: 0%; }
 
 .sun-bottom {
   display: block;
   position: absolute;
-  margin-top: 55%;
+  margin-top: 65%;
   left: 75%;
   right: 0%; }
+
+.home-section-content {
+  display: block;
+  position: absolute;
+  margin-top: 13%;
+  left: 48%;
+  right: 0%;
+  width: 425px;
+  text-align: center; }
+
+.home-header {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px; }
+
+.home-section-content-inner {
+  border-top: 1px solid #383129;
+  border-bottom: 1px solid #383129;
+  padding: 10px 0; }
+  .home-section-content-inner h1 {
+    margin: 0;
+    font-size: 1em; }

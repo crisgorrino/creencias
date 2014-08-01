@@ -55,12 +55,20 @@
    	 	
    	 	<div class="section home">
    	 		<div class="inner ">
-	   	 		<h1>Home</h1>
 	   	 		<img src="img/home/botellas.png" alt="Botellas Tequila Creencias" class="img-1" data-stellar-ratio=".5" >
 	   	 		<img src="img/home/small-flowers.png" alt="small flowers" data-stellar-ratio="1.5"  class="small-flowers-1">
 	   	 		<img src="img/home/dandelion.png" alt="small flowers" data-stellar-ratio="2"  class="dandelion">
 	   	 		<img src="img/home/dandelion-right.png" alt="small flowers" data-stellar-ratio="2"  class="dandelion-right">
 	   	 		<img src="img/home/sol-top.png" alt="small flowers" data-stellar-ratio=".5"  class="sun-bottom">
+	   	 		
+	   	 		<div class="home-section-content" data-stellar-ratio=".7">
+		   	 		<img src="img/home/header-top.png" alt="creencias tequila" class="home-header">
+		   	 		<div class="home-section-content-inner">
+			   	 		<h1>Una real, magnífica e incomparable experiencia de tequila, único en su tipo</h1>
+			   	 		<p>Una bebida espirituosa que lleva en su esencia nuestras raíces mexicanas y nuestra conexión constante con la tierra, con los campos de agave, con los matices azulados del paisaje que abraza la cuna de este elixir y es un estandarte de respeto y devoción a nuestra cultura y a la madre naturaleza.</p>
+		   	 		</div>	
+	   	 		</div>
+	   	 		
    	 		</div>
    	 	</div>
    	 	
@@ -105,7 +113,39 @@
 				anchors: ['home', 'productos', 'origen', 'creencias', 'puntos-de-venta', 'compra', 'contacto'],
 				autoScrolling: false
 			});				
-			$.stellar();						
+			$.stellar({
+				// Set scrolling to be in either one or both directions
+				horizontalScrolling:false,
+				verticalScrolling: true,
+				
+				// Set the global alignment offsets
+				horizontalOffset: 0,
+				verticalOffset: 0,
+				
+				// Refreshes parallax content on window load and resize
+				responsive: false,
+				
+				// Select which property is used to calculate scroll.
+				// Choose 'scroll', 'position', 'margin' or 'transform',
+				// or write your own 'scrollProperty' plugin.
+				scrollProperty: 'scroll',
+				
+				// Select which property is used to position elements.
+				// Choose between 'position' or 'transform',
+				// or write your own 'positionProperty' plugin.
+				positionProperty: 'position',
+				
+				// Enable or disable the two types of parallax
+				parallaxBackgrounds: true,
+				parallaxElements: true,
+				
+				// Hide parallax elements that move outside the viewport
+				hideDistantElements: true,
+				
+				// Customise how elements are shown and hidden
+				hideElement: function($elem) { $elem.hide(); },
+				showElement: function($elem) { $elem.show(); }
+				});					
 		});
 	</script>  
   
