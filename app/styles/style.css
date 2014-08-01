@@ -398,6 +398,9 @@ header {
     margin: 0 auto;
     text-align: center;
     border: 1px solid #fff;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    -ms-border-radius: 0 0 10px 10px;
     border-radius: 0 0 10px 10px; }
     header nav ul {
       list-style-type: none;
@@ -416,9 +419,17 @@ header {
           text-transform: uppercase;
           font-family: Helvetica, arial, sans-serif;
           font-size: 17px;
-          font-weight: 600; }
+          font-weight: 600;
+          -webkit-transition: color 0.5s ease-out;
+          -moz-transition: color 0.5s ease-out;
+          -ms-transition: color 0.5s ease-out;
+          transition: color 0.5s ease-out; }
         header nav ul li a:hover {
-          color: #ccc; }
+          color: #ccc;
+          -webkit-transition: color 0.5s ease-out;
+          -moz-transition: color 0.5s ease-out;
+          -ms-transition: color 0.5s ease-out;
+          transition: color 0.5s ease-out; }
 
 /*--page backgrounds--*/
 .section {
@@ -431,17 +442,14 @@ header {
   position: relative; }
 
 .home {
-  background-image: url(../img/section-bgs/home-bg.jpg); }
+  background-image: url(../img/section-bgs/home-bg.jpg);
+  background-size: 136%;
+  background-position: 50% 0%; }
   .home h1 {
     margin: 0; }
 
 .prod {
   background-image: url(../img/section-bgs/productos-bg.jpg); }
-  .prod #img-1 {
-    display: block;
-    position: absolute;
-    margin-top: 10%;
-    left: 0px; }
 
 .origen {
   background-image: url(../img/section-bgs/origen-bg.jpg); }
@@ -457,3 +465,23 @@ header {
 
 .contacto {
   background-image: url(../img/section-bgs/contacto-bg.jpg); }
+
+/*--home parallax images--*/
+.img-1 {
+  display: block;
+  position: absolute;
+  margin-top: 10%;
+  left: 26%; }
+
+.small-flowers-1 {
+  display: block;
+  position: absolute;
+  margin-top: 15%;
+  left: 30%; }
+
+.dandelion {
+  display: block;
+  position: absolute;
+  margin-top: 35%;
+  left: -25%;
+  right: 0%; }
