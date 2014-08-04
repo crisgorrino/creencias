@@ -49,7 +49,7 @@
 	text-align: center;
 }
 
-.home-header{display: block; margin: 0 auto; margin-bottom: 10px}
+.home-header{display: block; margin: 0 0 10px 0;}
 
 .home-section-content-inner{border-top:1px solid #383129; border-bottom:1px solid #383129; padding:10px 0;
 	h1{
@@ -57,3 +57,39 @@
 		font-size: 1em;
 	}
 }
+
+.agavito{
+	display: block; 
+	position:absolute;
+	margin-top:57%;
+	left:63%;
+	right:0%;
+	}
+	
+/*--END OF HOME SECTION PARALLAX--*/
+
+/*--PRODUCT SECTION PARALLAX--*/	
+.tequilas{
+	display: block; 
+	position:absolute;
+	margin-top:17%;
+	left:30%;
+	right:0%;
+	width:435px;
+	text-align: right;
+	}
+.prod-tequila{float:right; width: 80px;}
+.prod-tequila-info{float:left; width:335px;
+	h2{margin:0; font-size: 2em; color:$text-brown;}
+	h4{border-top:1px solid #000; border-bottom:1px solid #000; margin:0; padding:10px 0; font-size: 1.8em; color:$text-brown;}
+	p{border-bottom:1px solid #000; margin:0; padding:10px 0;}
+	.descargar-ficha{display: block; padding:10px 0; text-decoration: none; color:$text-brown;}
+	.tequilas-nav{list-style-type: none; display:block;
+		li{display: inline-block; vertical-align: middle; }
+		li:nth-child(1), li:nth-child(2){border-right:1px solid #000; padding:0 10px;}
+		li a{text-decoration: none; color:$text-brown;}
+	}
+}
+
+.prod-dandelion-right{position:absolute; left:75%; margin-top:30%;}
+.prod-small-fl-right{position:absolute; left:110%; margin-top:53%;}
