@@ -199,3 +199,28 @@
 	width:130px;
 	display: block;
 }
+
+/*-- CREENCIAS--*/
+.creencias-info{
+	position:absolute;
+	margin-top:15%;
+}
+
+.creencias-desc{
+	width:385px;
+	float:left;
+	border-bottom: 1px solid $text-brown;
+	h2{border-bottom: 1px solid $text-brown; padding-bottom:10px;}
+	p{font-size: .9em;}
+}
+.lista-creencias{list-style-type: none; width:530px; float:right; margin-top:-30px;
+	li{display: inline-block; vertical-align: bottom; width:160px; margin-bottom: 5px;
+		a{display: block; text-align: center; text-decoration: none; color:$text-brown;
+			img{display: inline-block; vertical-align: middle;}
+			span{display: block; padding:10px;}
+		}
+	}
+}
+
+.creencias-agavito{position: absolute;  margin-top: 10px; left: 13%;}
+.creencias-grafico{position: absolute; margin-top:50%; left:-35%; width:750px;}

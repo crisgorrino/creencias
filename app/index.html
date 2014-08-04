@@ -43,9 +43,9 @@
 			   <li data-menuanchor="productos"><a href="#productos">Productos</a></li>
 			   <li data-menuanchor="origen"><a href="#origen">El origen</a></li>
 			   <li data-menuanchor="creencias"><a href="#creencias">Creencias</a></li>
-			   <li data-menuanchor="puntos-de-venta"><a href="#puntos-de-venta">Puntos de Venta</a></li>
-			   <li data-menuanchor="compra"><a href="#compra">Compra</a></li>
 			   <li data-menuanchor="contacto"><a href="#contacto">Contacto</a></li>
+			   <li data-menuanchor="puntos-de-venta"><a href="#puntos-de-venta">Puntos de Venta</a></li>
+			   <li data-menuanchor="compra"><a href="#compra">Compra</a></li>			   
 			   <li><a href="#noticias">Noticias</a></li>
 		   </ul>
 		    <span class="arrow-down"></span>
@@ -132,8 +132,34 @@
    	 	
    	 	<div class="section creencias">
    	 		<div class="inner">
-   	 			Creencias		
+   	 			<div class="creencias-info cf" data-stellar-ratio=".7">
+	   	 			<div class="creencias-desc">
+		   	 			<h2>Creencias</h2>
+		   	 			<p>El México antiguo nos brinda hoy, la oportunidad de narrarnos leyendas tan hermosas como trascendentes para encontrar nuestra identidad como raza. </p>
+
+			   	 			<p>amistad • amor • espiritualidad • fe • honestidad • perseverancia •</p>
+
+			   	 			<p>Son los principios de nuestra idiosincrasia, enigmas que nuestra raza intuyó y transmitió a sus descendientes hasta el día de hoy; misterios como el por qué estamos aquí, por qué debemos luchar por la verdad, por qué motivo el amor es lo que nos salva de la muerte; por que la fe nos guarda el alma y en la tierra se encuentra la raíz de nuestro espíritu.</p> 
+
+			   	 			<p>Verdades que no vinieron de los libros, perspectivas que no cruzaron el mar, ni llegaron a través de credos; estas creencias corren por nuestras venas, nos palpitan en el pecho y son parte medular de la conciencia colectiva. </p>
+			   	 			<img src="img/home/agavito.png" alt="" class="creencias-agavito" data-stellar-ratio="1.1">
+	   	 			</div>
+	   	 			
+	   	 			<ul class="lista-creencias">
+		   	 			<li><a href=""><img src="img/creencias/iconos-creencias/amistad.png" alt=""><span>Amistad</span></a></li>
+		   	 			<li><a href=""><img src="img/creencias/iconos-creencias/amor.png" alt=""><span>Amor</span></a></li>
+		   	 			<li><a href=""><img src="img/creencias/iconos-creencias/espiritualidad.png" alt=""><span>Espiritualidad</span></a></li>
+		   	 			<li><a href=""><img src="img/creencias/iconos-creencias/fe.png" alt=""><span>Fe</span></a></li>
+		   	 			<li><a href=""><img src="img/creencias/iconos-creencias/honestidad.png" alt=""><span>Honestidad</span></a></li>
+		   	 			<li><a href=""><img src="img/creencias/iconos-creencias/persevarancia.png" alt=""><span>Perseverancia</span></a></li>
+	   	 			</ul>	   	 			
+   	 			</div>
+   	 			<img src="img/creencias/grafico.png" alt="" class="creencias-grafico" data-stellar-ratio=".5" >		
    	 		</div>
+   	 	</div>
+   	 	
+   	 	<div class="section contacto">
+   	 		<div class="inner">Contacto</div>
    	 	</div>
    	 	
    	 	<div class="section puntos">
@@ -144,10 +170,6 @@
    	 		<div class="inner">Compra</div>
    	 	</div>
    	 	
-   	 	<div class="section contacto">
-   	 		<div class="inner">Contacto</div>
-   	 	</div>
-   	 	
     </div>
 </body>
   
@@ -156,7 +178,7 @@
 		$(document).ready(function() {
 			$('#fullpage').fullpage({
 				menu: '#menu',
-				anchors: ['home', 'productos', 'origen', 'creencias', 'puntos-de-venta', 'compra', 'contacto'],
+				anchors: ['home', 'productos', 'origen', 'creencias', 'contacto','puntos-de-venta', 'compra'],
 				autoScrolling: false
 			});				
 			$.stellar({

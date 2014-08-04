@@ -470,7 +470,7 @@ header {
   background-image: url(../img/section-bgs/puntos-bg.jpg); }
 
 .compra {
-  background-image: url(../img/section-bgs/puntos-bg.jpg); }
+  background-image: url(../img/section-bgs/compra-bg.jpg); }
 
 .contacto {
   background-image: url(../img/section-bgs/contacto-bg.jpg); }
@@ -712,3 +712,51 @@ header {
   right: 10%;
   width: 130px;
   display: block; }
+
+/*-- CREENCIAS--*/
+.creencias-info {
+  position: absolute;
+  margin-top: 15%; }
+
+.creencias-desc {
+  width: 385px;
+  float: left;
+  border-bottom: 1px solid #383129; }
+  .creencias-desc h2 {
+    border-bottom: 1px solid #383129;
+    padding-bottom: 10px; }
+  .creencias-desc p {
+    font-size: .9em; }
+
+.lista-creencias {
+  list-style-type: none;
+  width: 530px;
+  float: right;
+  margin-top: -30px; }
+  .lista-creencias li {
+    display: inline-block;
+    vertical-align: bottom;
+    width: 160px;
+    margin-bottom: 5px; }
+    .lista-creencias li a {
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      color: #383129; }
+      .lista-creencias li a img {
+        display: inline-block;
+        vertical-align: middle; }
+      .lista-creencias li a span {
+        display: block;
+        padding: 10px; }
+
+.creencias-agavito {
+  position: absolute;
+  margin-top: 10px;
+  left: 13%; }
+
+.creencias-grafico {
+  position: absolute;
+  margin-top: 50%;
+  left: -35%;
+  width: 750px; }
