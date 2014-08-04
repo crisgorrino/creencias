@@ -93,3 +93,109 @@
 
 .prod-dandelion-right{position:absolute; left:75%; margin-top:30%;}
 .prod-small-fl-right{position:absolute; left:110%; margin-top:53%;}
+.prod-small-lrg-right{position:absolute; margin-top:40%; left:-30%;}
+.prod-small-med-right{position:absolute; margin-top:50%; left:20%;}
+.prod-small-med-right-top{position:absolute; margin-top:10%; left:0%;}
+.prod-small-flwr{position:absolute; margin-top:35%; left:20%;}
+.prod-sun-top-right{position:absolute; right:0; margin-top:7%;}
+
+/*--El Origen--*/
+.el_origen{display: block; 
+	position:absolute;
+	margin-top:15%;
+	left:50%;
+	right:0%;
+	width:350px;
+	text-align:left;
+	}
+.el_origen_inner{
+	border-top:1px solid $text-brown;
+	border-bottom:1px solid $text-brown;
+	h2{margin:0;}
+}
+
+.origen-logo{
+	position:absolute;
+	margin-top:18%;
+	display: block;
+	width:425px;
+}	
+
+.espiral-lrg{
+	position:absolute;
+	margin-top:48%;
+	display: block;
+	width:250px;
+}
+
+.orange-circle-right{
+	position:absolute;
+	margin-top:6%;
+	left:-10%;
+	width:80px;
+	display: block;
+}
+
+.yellow-circle-right{
+	position:absolute;
+	margin-top:26%;
+	left:-18%;
+	width:50px;
+	display: block;
+}
+
+.yellow-circle-center{
+	position:absolute;
+	margin-top:30%;
+	left:40%;
+	width:50px;
+	display: block;
+}
+
+.origen-sol{
+	position:absolute;
+	margin-top:60%;
+	left:30%;
+	width:250px;
+	display: block;
+}
+
+.origen-sol-right{
+	position:absolute;
+	margin-top:15%;
+	right:0;
+	width:200px;
+}
+
+.light-orange-circle{
+	position:absolute;
+	margin-top:58%;
+	right:5%;
+	width:50px;
+	display: block;
+}
+
+.yellow-circle-bottom-right{
+	position:absolute;
+	margin-top:65%;
+	right:-10%;
+	width:50px;
+	display: block;
+}
+
+
+.orange-circle-center-bottom{
+	position:absolute;
+	margin-top:70%;
+	right:20%;
+	width:80px;
+	display: block;
+}
+
+.spiral-top-right{
+	position: absolute;
+	margin-top:-1%;
+	right:10%;
+	width:130px;
+	display: block;
+}
