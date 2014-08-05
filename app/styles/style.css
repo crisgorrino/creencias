@@ -14,7 +14,8 @@ html {
   /* 2 */
   font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 100%; }
 
 /**
  * Remove default margin.
@@ -403,8 +404,7 @@ header {
     -ms-border-radius: 0 0 10px 10px;
     border-radius: 0 0 10px 10px; }
     header nav .arrow-down {
-      position: absolute;
-      bottom: -15px; }
+      position: absolute; }
     header nav ul {
       list-style-type: none;
       margin: 0px;
@@ -441,11 +441,19 @@ header {
   border-right: 15px solid transparent;
   border-top: 15px solid white; }
 
+.logo {
+  position: absolute;
+  display: block;
+  left: 44.5%;
+  margin-top: 12px;
+  z-index: 0; }
+
 /*--page backgrounds--*/
 .section {
   background-size: cover;
   background-repeat: no-repeat;
-  overflow: hidden; }
+  overflow: hidden;
+  z-index: 1; }
 
 .inner {
   width: 980px;
@@ -453,9 +461,7 @@ header {
   position: relative; }
 
 .home {
-  background-image: url(../img/section-bgs/home-bg.jpg);
-  background-size: 136%;
-  background-position: 50% 0%; }
+  background-image: url(../img/section-bgs/home-bg.jpg); }
 
 .prod {
   background-image: url(../img/section-bgs/productos-bg.jpg); }

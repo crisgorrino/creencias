@@ -12,7 +12,7 @@ header{
 				text-align: center;
 				border:1px solid #fff;
 				@include border-radius( 0 0 10px 10px);
-				.arrow-down{position:absolute; bottom: -15px;}
+				.arrow-down{position:absolute;}
 			ul{
 				list-style-type: none;
 				margin:0px; 
@@ -46,4 +46,12 @@ header{
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;	
 	border-top: 15px solid $primary-color;
+}
+
+.logo{
+	position: absolute;
+	display: block;
+	left: 44.5%;
+	margin-top: 12px;
+	z-index:0;
 }

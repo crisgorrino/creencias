@@ -1,11 +1,9 @@
 /*--page backgrounds--*/
-.section{background-size:cover; background-repeat:no-repeat; overflow: hidden;}
+.section{background-size:cover; background-repeat:no-repeat; overflow: hidden; z-index: 1;}
 
 .inner{width:980px; margin:0 auto; position:relative;}
 
-.home{background-image: url(../img/section-bgs/home-bg.jpg);
-			background-size: 136%;
-            background-position: 50% 0%;} 
+.home{background-image: url(../img/section-bgs/home-bg.jpg);} 
 
 .prod {background-image: url(../img/section-bgs/productos-bg.jpg);}
 
