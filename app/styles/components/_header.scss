@@ -23,15 +23,15 @@ header{
 				
 					li{
 					display: inline-block; vertical-align: middle;
-					margin:0 7px;
+					margin:0 21px;
 						a{
 							display: block;
 							text-decoration: none;
 							color:#000;
 							text-transform: uppercase;
 							font-family: $menu-font-stack;
-							font-size: 17px;
-							font-weight: 600;
+							font-size: 18px;
+							font-weight: 700;
 							@include color-transition(color .5s ease-out );
 						}
 						a:hover{color:#ccc; @include color-transition(color .5s ease-out );}
