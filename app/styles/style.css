@@ -616,7 +616,8 @@ header {
     margin: 0;
     font-size: 2em;
     color: #383129;
-    font-family: novecento_widedemibold, sans-serif; }
+    font-family: novecento_widedemibold, sans-serif;
+    font-weight: normal; }
   .prod-tequila-info h4 {
     border-top: 1px solid #000;
     border-bottom: 1px solid #000;
