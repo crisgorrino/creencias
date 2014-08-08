@@ -966,3 +966,60 @@ header {
   left: 33%;
   margin-top: 58%;
   z-index: 0; }
+
+/*--compra tequila--*/
+.compras {
+  position: absolute;
+  margin-top: 15%;
+  width: 100%; }
+
+.compra-tequila {
+  width: 250px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 0 0 5%; }
+  .compra-tequila .tequila-img {
+    display: block;
+    margin: 0 auto;
+    width: 35px; }
+  .compra-tequila form {
+    border-top: 1px solid #000;
+    padding: 10px 0 0 0;
+    margin-top: 10px; }
+    .compra-tequila form p {
+      clear: both;
+      font-size: 0.7em;
+      padding-top: 10px; }
+      .compra-tequila form p input[type="text"] {
+        width: 50px;
+        display: inline-block;
+        margin: 0 13px; }
+      .compra-tequila form p .circle {
+        background-color: #000;
+        color: white;
+        border-radius: 50%;
+        padding: 5px 8px;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+        cursor: pointer; }
+
+.tequila-desc {
+  float: left; }
+
+.tequila-precio {
+  float: right; }
+
+.botones-compra {
+  width: 400px;
+  margin: 50px auto 0 auto; }
+  .botones-compra a {
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    color: white;
+    background-color: #383129;
+    text-align: center;
+    padding: 5px 10px; }
+  .botones-compra a:last-of-type {
+    float: right; }
