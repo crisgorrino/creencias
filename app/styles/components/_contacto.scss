@@ -1,0 +1,35 @@
+/*--contacto--*/
+.contact-form-cont{
+	position: absolute; 
+	margin-top:13%;
+	left:10%;
+	z-index: 1;
+	h2{width: 300px; border-bottom: 1px solid $text-brown; padding:0 0 5px 10px; margin:0; color:$primary-color; font-family: $novecento-demi; font-weight: normal;
+	}
+	p{padding:5px 0 5px 10px; color:$primary-color; margin:10px 0; font-family:$default-font-stack;}
+	h3{font-size: .8em; color:#154c55;
+		a{text-decoration: none; font-weight: bold; color:#154c55;
+			&:hover{@include color-transition(color .5s ease-out ); color:$primary-color;}
+		}
+	}
+	form{
+		width: 555px;
+		.form-text-fields{width:250px; float:left;}
+		label{display: block; font-size: .8em; color:#22616b;}
+		input[type="text"]{border-radius:4px; display: block; padding:2px; color:#22616b; outline:none;}
+		.form-text-area{float:right; width:300px;
+			textarea{border-radius:4px; display: block; padding:2px; height:8em; width:100%; color:#22616b; outline:none;}
+			input[type="button"]{float:right; background-color:#22616b; color:#99e2dc; border:1px solid #22616b; border-radius:4px; padding:5px; text-align:center; width:125px; outline:none;} 
+		}
+	}
+}
+
+.hojas-top{position:absolute; left:-15%;}
+.hojas-left{position:absolute; margin-top:45%; left:-25%;}
+.hongo-left{position:absolute; margin-top:65%; left:-35%;}
+.hojas-right-bottom{position:absolute; margin-top:40%; right:-15%; }
+.hoja-right{position:absolute; margin-top:10%; right:-5%;}
+.hojas-trans-right-top{position:absolute; margin-top:3%; right:10%;}
+.hojas-trans-left-top{position:absolute; margin-top:35%; left:-5%;}
+.hojas-center-bot{position:absolute; margin-top:70%; left:20%;}
+
