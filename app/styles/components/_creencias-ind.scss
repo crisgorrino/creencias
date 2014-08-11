@@ -1,0 +1,33 @@
+
+html, .creencia-img{width:100%; height:100%;}
+
+.creencia-hdr{position:relative;
+	nav{width:620px; margin:0 auto; display: block; text-align: center;
+		ul{list-style-type: none; padding:0; width:100%; margin: 10px 0;
+			li{display: inline-block; vertical-align: middle; margin:0 0px 0 0px; text-align: center;
+				a{text-decoration: none; display: inline-block; color:#000; font-size: .9em;
+					&:hover{color:#febc3e;}
+				}
+				a.active{color:#febc3e;}
+			}
+		}
+	}
+}
+
+.arrows-cont{position: absolute; background-color: transparent; width: 100%; top:10%;
+	.cree-ant{float:left;}
+	.cree-sig{float:right;}
+	.leer-ley{position:absolute; right: 4%; top: 4%; display: inline-block; text-decoration: none; background-color:#fff; padding:10px 20px; text-align: center; color:#000; text-transform: uppercase;}
+}
+
+.leyenda{border:10px solid #e5ded5; text-align: center; width:600px; padding:30px;
+		p{font-size: .9em; font-family: georgia, serif; font-style: italic; line-height: 1.2em;}
+		h3{font-size: 1.1em; font-family: georgia, serif;}
+}
+
+.amistad{background-image: url(../img/creencias-ind/amistad.jpg); background-size: cover; height: 100%; width:100%; background-repeat: no-repeat;}
+.amor{background-image: url(../img/creencias-ind/amor.jpg); background-size:cover; height: 100%; width:100%; background-repeat: no-repeat;}
+.espiritualidad{background-image: url(../img/creencias-ind/espiritualidad.jpg); background-size:cover; height: 100%; width:100%; background-repeat: no-repeat;}
+.fe{background-image: url(../img/creencias-ind/fe.jpg); background-size:cover; height: 100%; width:100%; background-repeat: no-repeat;}
+.honestidad{background-image: url(../img/creencias-ind/honestidad.jpg); background-size:cover; height: 100%; width:100%; background-repeat: no-repeat;}
+.perseverancia{background-image: url(../img/creencias-ind/perseverancia.jpg); background-size:cover; height: 100%; width:100%; background-repeat: no-repeat;}
