@@ -1221,6 +1221,19 @@ html, .creencia-img {
         .creencia-hdr nav ul li a.active {
           color: #febc3e; }
 
+.reg-menu-p {
+  position: absolute;
+  right: 0;
+  top: -4px;
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: .8em; }
+  .reg-menu-p img {
+    display: inline-block;
+    vertical-align: middle; }
+
 .arrows-cont {
   position: absolute;
   background-color: transparent;
