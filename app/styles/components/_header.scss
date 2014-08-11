@@ -6,6 +6,7 @@ header{
 	width:100%;
 	z-index: 100;
 		nav{
+				position:relative;
 				width:980px;
 				background-color: $primary-color;
 				margin:0 auto;
@@ -55,3 +56,10 @@ header{
 	margin-top: 12px;
 	z-index:0;
 }
+
+.lang-menu{position:absolute; right:3%; bottom:-65%; color:#000; font-size: .8em;
+	a{color:#000; font-family:$default-font-stack; text-decoration: none; font-size: .8em;}
+	a.active{font-weight: bold;}
+}
+
+.redes{position:absolute; left:3%; bottom:-93%;}

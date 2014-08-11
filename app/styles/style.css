@@ -432,6 +432,7 @@ header {
   width: 100%;
   z-index: 100; }
   header nav {
+    position: relative;
     width: 980px;
     background-color: white;
     margin: 0 auto;
@@ -485,6 +486,25 @@ header {
   left: 44.5%;
   margin-top: 12px;
   z-index: 0; }
+
+.lang-menu {
+  position: absolute;
+  right: 3%;
+  bottom: -65%;
+  color: #000;
+  font-size: .8em; }
+  .lang-menu a {
+    color: #000;
+    font-family: helvetica, arial, sans-serif;
+    text-decoration: none;
+    font-size: .8em; }
+  .lang-menu a.active {
+    font-weight: bold; }
+
+.redes {
+  position: absolute;
+  left: 3%;
+  bottom: -93%; }
 
 /*--page backgrounds--*/
 .section {
