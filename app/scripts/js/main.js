@@ -13,4 +13,11 @@ $(document).ready(function(){
 		    return false;
 		  });
 		  })(jQuery);
+		  
+		  //PUNTOS DE VENTA TOGGLE POR ESTADO
+		  $('.estado').click(function(){
+		  	  $('.estado').siblings('div').slideUp();
+			  $(this).next().slideToggle();			  
+		  });
+		  
 });
