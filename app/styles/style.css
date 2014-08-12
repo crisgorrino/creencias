@@ -1140,6 +1140,95 @@ header {
   margin-top: 10%;
   left: -30%; }
 
+/*--carrito--*/
+.carrito {
+  width: 550px;
+  margin: 0 auto; }
+  .carrito h4 {
+    border-bottom: 1px solid #383129;
+    clear: both; }
+  .carrito p {
+    font-size: .9em; }
+  .carrito .compra-cant, .carrito .compra-precio, .carrito .compra-total {
+    text-align: right; }
+  .carrito div {
+    display: inline-block;
+    vertical-align: top;
+    width: 24%; }
+    .carrito div h5 {
+      margin: 10px 0; }
+    .carrito div span {
+      display: block;
+      padding: 10px 0;
+      font-size: .8em; }
+      .carrito div span input[type="text"] {
+        border: none;
+        width: 50px;
+        text-align: right; }
+
+.subtotal {
+  float: right;
+  text-align: right; }
+
+.comp-btn-cont {
+  clear: right;
+  text-align: right; }
+
+.actualizar {
+  background-color: #7d776f;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 20px 0 0  20px; }
+
+.sig-paso {
+  background-color: #50473d;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 20px 0 0  20px; }
+
+/*--datos de facturacion--*/
+.datos-envio-fact h4 {
+  border-bottom: 1px solid #383129;
+  margin: 10px 0; }
+.datos-envio-fact .datos-left {
+  width: 40%;
+  float: left; }
+  .datos-envio-fact .datos-left p {
+    margin: 5px 0;
+    font-size: .8em; }
+    .datos-envio-fact .datos-left p label {
+      float: left; }
+    .datos-envio-fact .datos-left p input[type="text"] {
+      float: right;
+      width: 60%; }
+.datos-envio-fact .datos-right {
+  width: 40%;
+  float: right; }
+  .datos-envio-fact .datos-right p {
+    margin: 5px 0;
+    font-size: .8em; }
+    .datos-envio-fact .datos-right p label {
+      float: left; }
+    .datos-envio-fact .datos-right p input[type="text"] {
+      float: right;
+      width: 60%; }
+
+.pagar {
+  background-color: #50473d;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 20px 0 0  20px;
+  width: 22%; }
+
 .noticias {
   background-color: #f6f4f1; }
 

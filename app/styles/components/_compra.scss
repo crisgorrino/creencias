@@ -20,3 +20,41 @@
 	
 .compras-sol-der{position:absolute; margin-top:25%; right:-30%;}
 .compras-sol-iz{position:absolute; margin-top:10%; left:-30%;}
+
+/*--carrito--*/
+.carrito{
+		width:550px; margin:0 auto;
+	h4{border-bottom:1px solid $text-brown; clear:both;}
+	p{font-size: .9em;}
+	.compra-cant, .compra-precio, .compra-total{text-align: right;}
+	 div{display: inline-block; vertical-align: top; width:24%;
+	 	h5{margin:10px 0;} 
+		span{display:block; padding:10px 0; font-size: .8em;
+			input[type="text"]{border:none; width:50px; text-align: right;}
+		}
+	}
+}
+.subtotal{float:right; text-align: right;}
+
+.comp-btn-cont{clear: right; text-align: right;}
+.actualizar{background-color:#7d776f; color:#fff; text-decoration: none; display: inline-block; text-align: center; padding:5px 10px;  margin:20px 0 0  20px; }
+.sig-paso{background-color:#50473d; color:#fff; text-decoration: none; display: inline-block; text-align: center; padding:5px 10px;  margin:20px 0 0  20px;}
+
+/*--datos de facturacion--*/
+.datos-envio-fact{
+	h4{border-bottom:1px solid $text-brown; margin:10px 0;}
+	.datos-left{width:40%; float:left;
+		p{ margin:5px 0; font-size: .8em;
+			label{float:left;}
+			input[type="text"]{float:right; width:60%;}
+		}
+	}
+	.datos-right{width:40%; float:right;
+		p{ margin:5px 0; font-size: .8em;
+			label{float:left;}
+			input[type="text"]{float:right; width:60%;}
+		}
+	}
+}
+
+.pagar{background-color:#50473d; color:#fff; text-decoration: none; display: inline-block; text-align: center; padding:5px 10px;  margin:20px 0 0  20px; width:22%;}
