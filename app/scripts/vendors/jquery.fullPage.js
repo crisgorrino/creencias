@@ -14,7 +14,7 @@
 			'resize': true,
 			'sectionsColor' : [],
 			'anchors':[],
-			'scrollingSpeed': 700,
+			'scrollingSpeed': 1000,
 			'easing': 'easeInQuart',
 			'menu': false,
 			'navigation': false,
